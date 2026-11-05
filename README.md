@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/hero.svg" alt="Mohammed Afsal, Full-Stack Developer, MERN Stack" width="100%" />
+<img src="assets/MOHAMMED.png" alt="Mohammed Afsal, Full-Stack Developer, MERN Stack" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=2F5D3A&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=40&amp;lines=Full-Stack+Developer;MERN+Stack+Developer;Building+responsive+web+applications;Open+to+entry-level+opportunities" alt="Typing animation" />
 
@@ -35,7 +35,7 @@ I like owning a feature from end to end: the interface a user touches, the API b
 ## How I Build
 
 <div align="center">
-<img src="assets/MOHAMMED.png" alt="React and Tailwind client, Node and Express API with JWT, MongoDB with Mongoose" width="100%" />
+<img src="assets/stack-flow.svg" alt="React and Tailwind client, Node and Express API with JWT, MongoDB with Mongoose" width="100%" />
 </div>
 
 <br>
