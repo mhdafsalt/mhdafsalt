@@ -53,17 +53,15 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 ## Featured Projects
 
-<!-- Replace REPO_NAME in each link with your repository name. -->
-
 <div align="center">
 
-<a href="https://github.com/mhdafsalt/REPO_NAME"><img src="assets/project-hospital.svg" alt="Hospital Management System" width="100%" /></a>
+<a href="https://github.com/mhdafsalt/Ucare_Hospital"><img src="assets/project-hospital.svg" alt="Hospital Management System" width="100%" /></a>
 
-<a href="https://github.com/mhdafsalt/REPO_NAME"><img src="assets/project-tripzygo.svg" alt="TripzyGo, AI Travel Planner &amp; Booking Platform" width="100%" /></a>
+<a href="https://github.com/mhdafsalt/TripzyGo"><img src="assets/project-tripzygo.svg" alt="TripzyGo, AI Travel Planner &amp; Booking Platform" width="100%" /></a>
 
-<a href="https://github.com/mhdafsalt/REPO_NAME"><img src="assets/project-flintsector.svg" alt="FlintSector, clothing brand website" width="100%" /></a>
+<a href="https://github.com/mhdafsalt/flintsector"><img src="assets/project-flintsector.svg" alt="FlintSector, clothing brand website" width="100%" /></a>
 
-<a href="https://github.com/mhdafsalt/REPO_NAME"><img src="assets/project-realestate.svg" alt="Real Estate Website" width="100%" /></a>
+<a href="https://github.com/mhdafsalt/Baytora"><img src="assets/project-realestate.svg" alt="Real Estate Website" width="100%" /></a>
 
 </div>
 
@@ -89,14 +87,11 @@ const learning = [
 
 <br><br>
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=mhdafsalt&show_icons=true&title_color=F00016&text_color=161111&icon_color=F00016&bg_color=F4EEDF&border_color=D9D2BC" alt="GitHub stats" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdafsalt&layout=compact&langs_count=6&title_color=F00016&text_color=161111&bg_color=F4EEDF&border_color=D9D2BC" alt="Most used languages" />
-
-<br><br>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhdafsalt&bg_color=F4EEDF&color=F00016&line=F00016&point=161111&area=true&area_color=F00016&title_color=F00016&hide_border=true" alt="Contribution graph" />
+<img height="175" src="https://github-stats-extended.vercel.app/api?username=mhdafsalt&show_icons=true&title_color=F00016&text_color=161111&icon_color=F00016&bg_color=F4EEDF&border_color=D9D2BC" alt="GitHub stats" />
+<img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhdafsalt&layout=compact&langs_count=6&title_color=F00016&text_color=161111&bg_color=F4EEDF&border_color=D9D2BC" alt="Most used languages" />
 
 <!-- Optional: uncomment after the snake workflow has run once (see instructions).
+<br><br>
 <img src="https://raw.githubusercontent.com/mhdafsalt/mhdafsalt/output/github-snake.svg" alt="Contribution snake" width="100%" />
 -->
 
