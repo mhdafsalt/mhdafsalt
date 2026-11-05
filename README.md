@@ -4,12 +4,12 @@
 
 <img src="assets/hero.svg" alt="Mohammed Afsal, Full-Stack Developer, MERN Stack" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2F5D3A&center=true&vCenter=true&width=640&height=40&lines=Full-Stack+Developer;MERN+Stack+Developer;Building+responsive+web+applications;Open+to+entry-level+opportunities" alt="Typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=2F5D3A&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=40&amp;lines=Full-Stack+Developer;MERN+Stack+Developer;Building+responsive+web+applications;Open+to+entry-level+opportunities" alt="Typing animation" />
 
-<a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-2F5D3A?style=for-the-badge&logo=googlechrome&logoColor=F5F0E1" alt="Portfolio" /></a>
-<a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-3E7B4F?style=for-the-badge&logo=github&logoColor=F5F0E1" alt="GitHub" /></a>
-<img src="https://img.shields.io/badge/Kerala%2C%20India-F5F0E1?style=for-the-badge&labelColor=2F5D3A&logo=googlemaps&logoColor=F5F0E1" alt="Kerala, India" />
-<img src="https://komarev.com/ghpvc/?username=mhdafsalt&label=Profile%20Views&color=2F5D3A&style=for-the-badge" alt="Profile views" />
+<a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-2F5D3A?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=F5F0E1" alt="Portfolio" /></a>
+<a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-3E7B4F?style=for-the-badge&amp;logo=github&amp;logoColor=F5F0E1" alt="GitHub" /></a>
+<img src="https://img.shields.io/badge/Kerala%2C%20India-F5F0E1?style=for-the-badge&amp;labelColor=2F5D3A&amp;logo=googlemaps&amp;logoColor=F5F0E1" alt="Kerala, India" />
+<img src="https://komarev.com/ghpvc/?username=mhdafsalt&amp;label=Profile%20Views&amp;color=2F5D3A&amp;style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ```js
 const mohammedAfsal = {
-  role: "Full-Stack Developer (MERN)",
+  role: "Full-Stack Developer | MERN Stack Developer",
   location: "Kerala, India",
   stack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
   focus: ["Responsive web apps", "Secure REST APIs", "JWT auth & RBAC"],
@@ -46,11 +46,11 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 | | |
 |:--|:--|
-| **Frontend Development** | <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind&theme=light" alt="HTML, CSS, JavaScript, React, Tailwind CSS" /> |
-| **Backend Development** | <img src="https://skillicons.dev/icons?i=nodejs,express&theme=light" alt="Node.js, Express.js" /> |
-| **Database** | <img src="https://skillicons.dev/icons?i=mongodb&theme=light" alt="MongoDB" /> <img src="https://img.shields.io/badge/Mongoose-2F5D3A?style=for-the-badge&logo=mongoose&logoColor=F5F0E1" alt="Mongoose" /> |
-| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github&theme=light" alt="Git, GitHub" /> |
-| **Authentication & API Development** | <img src="https://img.shields.io/badge/JWT-2F5D3A?style=for-the-badge&logo=jsonwebtokens&logoColor=F5F0E1" alt="JWT" /> <img src="https://img.shields.io/badge/REST%20APIs-3E7B4F?style=for-the-badge" alt="REST APIs" /> <img src="https://img.shields.io/badge/RBAC-2F5D3A?style=for-the-badge" alt="RBAC" /> |
+| **Frontend Development** | <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind&amp;theme=light" alt="HTML, CSS, JavaScript, React, Tailwind CSS" /> |
+| **Backend Development** | <img src="https://skillicons.dev/icons?i=nodejs,express&amp;theme=light" alt="Node.js, Express.js" /> |
+| **Database** | <img src="https://skillicons.dev/icons?i=mongodb&amp;theme=light" alt="MongoDB" /> <img src="https://img.shields.io/badge/Mongoose-2F5D3A?style=for-the-badge&amp;logo=mongoose&amp;logoColor=F5F0E1" alt="Mongoose" /> |
+| **Tools &amp; Platforms** | <img src="https://skillicons.dev/icons?i=git,github&amp;theme=light" alt="Git, GitHub" /> |
+| **Authentication &amp; API Development** | <img src="https://img.shields.io/badge/JWT-2F5D3A?style=for-the-badge&amp;logo=jsonwebtokens&amp;logoColor=F5F0E1" alt="JWT" /> <img src="https://img.shields.io/badge/REST%20APIs-3E7B4F?style=for-the-badge" alt="REST APIs" /> <img src="https://img.shields.io/badge/RBAC-2F5D3A?style=for-the-badge" alt="RBAC" /> |
 
 </div>
 
@@ -58,7 +58,7 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 ## Featured Projects
 
-<!-- Replace REPO_NAME in each link with your repository name. Add live demo links in the text below each card. -->
+<!-- Replace REPO_NAME in each link with your repository name. -->
 
 <div align="center">
 
@@ -76,8 +76,6 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 ## Currently Learning
 
-<!-- Replace with what you are actually learning, then delete this comment. -->
-
 ```js
 const learning = [
   "[Add topic]",
@@ -92,12 +90,12 @@ const learning = [
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mhdafsalt&show_icons=true&include_all_commits=true&count_private=true&title_color=2F5D3A&text_color=3B3B2F&icon_color=3E7B4F&bg_color=F5F0E1&border_color=D9D2BC" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdafsalt&layout=compact&langs_count=6&title_color=2F5D3A&text_color=3B3B2F&bg_color=F5F0E1&border_color=D9D2BC" alt="Most used languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mhdafsalt&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=2F5D3A&amp;text_color=3B3B2F&amp;icon_color=3E7B4F&amp;bg_color=F5F0E1&amp;border_color=D9D2BC" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdafsalt&amp;layout=compact&amp;langs_count=6&amp;title_color=2F5D3A&amp;text_color=3B3B2F&amp;bg_color=F5F0E1&amp;border_color=D9D2BC" alt="Most used languages" />
 
-<img src="https://streak-stats.demolab.com/?user=mhdafsalt&background=F5F0E1&ring=2F5D3A&fire=3E7B4F&currStreakNum=3B3B2F&currStreakLabel=2F5D3A&sideNums=3B3B2F&sideLabels=2F5D3A&dates=6B6B5A&border=D9D2BC" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=mhdafsalt&amp;background=F5F0E1&amp;ring=2F5D3A&amp;fire=3E7B4F&amp;currStreakNum=3B3B2F&amp;currStreakLabel=2F5D3A&amp;sideNums=3B3B2F&amp;sideLabels=2F5D3A&amp;dates=6B6B5A&amp;border=D9D2BC" alt="GitHub streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhdafsalt&bg_color=F5F0E1&color=2F5D3A&line=3E7B4F&point=2F5D3A&area=true&area_color=3E7B4F&hide_border=true" alt="Contribution graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhdafsalt&amp;bg_color=F5F0E1&amp;color=2F5D3A&amp;line=3E7B4F&amp;point=2F5D3A&amp;area=true&amp;area_color=3E7B4F&amp;hide_border=true" alt="Contribution graph" />
 
 <!-- Optional: uncomment after the snake workflow has run once (see instructions).
 <img src="https://raw.githubusercontent.com/mhdafsalt/mhdafsalt/output/github-snake.svg" alt="Contribution snake" width="100%" />
@@ -111,11 +109,11 @@ const learning = [
 
 <div align="center">
 
-<a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-2F5D3A?style=for-the-badge&logo=googlechrome&logoColor=F5F0E1" alt="Portfolio" /></a>
-<a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-3E7B4F?style=for-the-badge&logo=github&logoColor=F5F0E1" alt="GitHub" /></a>
+<a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-2F5D3A?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=F5F0E1" alt="Portfolio" /></a>
+<a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-3E7B4F?style=for-the-badge&amp;logo=github&amp;logoColor=F5F0E1" alt="GitHub" /></a>
 
 *Open to entry-level Full-Stack and MERN developer roles. Let's build something good.*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=2F5D3A&height=90&section=footer" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=2F5D3A&amp;height=90&amp;section=footer" alt="" />
 
 </div>

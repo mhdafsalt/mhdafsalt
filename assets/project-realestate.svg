@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210">
+  <defs>
+    <!-- Left accent bar gradient -->
+    <linearGradient id="projAccentGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F5D3A" />
+      <stop offset="100%" stop-color="#3E7B4F" />
+    </linearGradient>
+
+    <!-- Bottom sliding line gradient -->
+    <linearGradient id="slideLineGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F5D3A" stop-opacity="0" />
+      <stop offset="50%" stop-color="#3E7B4F" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#2F5D3A" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="cardClip4">
+      <rect x="0" y="0" width="900" height="210" rx="14" ry="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .project-mono {
+      font-family: Consolas, 'Courier New', Courier, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.2px;
+      fill: #3E7B4F;
+    }
+    .project-title {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #2F5D3A;
+    }
+    .project-desc {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 13px;
+      fill: #6B6B5A;
+    }
+    .chip-outline {
+      fill: #ECE6D5;
+      stroke: #3E7B4F;
+      stroke-width: 1.2;
+    }
+    .chip-text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #2F5D3A;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .watermark-num {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 130px;
+      font-weight: 900;
+      fill: #2F5D3A;
+      opacity: 0.07;
+      text-anchor: middle;
+      user-select: none;
+    }
+  </style>
+
+  <!-- Card Background clipped -->
+  <g clip-path="url(#cardClip4)">
+    <rect x="0" y="0" width="900" height="210" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="14" />
+    
+    <!-- Left Accent Bar -->
+    <rect x="0" y="0" width="6" height="210" fill="url(#projAccentGrad4)" />
+
+    <!-- Huge Faded Number on Right -->
+    <text x="785" y="152" class="watermark-num">04</text>
+
+    <!-- Thin Animated Bottom Edge Line -->
+    <rect y="207" height="3" fill="url(#slideLineGrad4)" rx="1.5">
+      <animate attributeName="x" values="-240; 900" dur="4.2s" begin="2.4s" repeatCount="indefinite" />
+      <animate attributeName="width" values="120; 260; 120" dur="4.2s" begin="2.4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Project Content -->
+  <g id="project-content">
+    <!-- Mono Label -->
+    <text x="42" y="40" class="project-mono">PROJECT 04</text>
+
+    <!-- Title -->
+    <text x="42" y="72" class="project-title">Real Estate Website</text>
+
+    <!-- Description -->
+    <text x="42" y="97" class="project-desc">Property showcase platform featuring comprehensive listings, detail views, and direct inquiry channels.</text>
+
+    <!-- Feature Chips (Row 1) -->
+    <g transform="translate(42, 126)">
+      <!-- Property listings -->
+      <g transform="translate(0, 0)">
+        <rect width="134" height="26" rx="13" class="chip-outline" />
+        <text x="67" y="14" class="chip-text">Property Listings</text>
+      </g>
+      <!-- Property details -->
+      <g transform="translate(142, 0)">
+        <rect width="128" height="26" rx="13" class="chip-outline" />
+        <text x="64" y="14" class="chip-text">Property Details</text>
+      </g>
+      <!-- Direct calling -->
+      <g transform="translate(278, 0)">
+        <rect width="118" height="26" rx="13" class="chip-outline" />
+        <text x="59" y="14" class="chip-text">Direct Calling</text>
+      </g>
+      <!-- WhatsApp inquiry -->
+      <g transform="translate(404, 0)">
+        <rect width="146" height="26" rx="13" class="chip-outline" />
+        <text x="73" y="14" class="chip-text">WhatsApp Inquiry</text>
+      </g>
+    </g>
+  </g>
+</svg>
+
