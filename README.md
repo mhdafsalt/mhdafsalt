@@ -35,7 +35,7 @@ I like owning a feature from end to end: the interface a user touches, the API b
 ## How I Build
 
 <div align="center">
-<img src="assets/stack-flow.svg" alt="React and Tailwind client, Node and Express API with JWT, MongoDB with Mongoose" width="100%" />
+<img src="assets/MOHAMMED.png" alt="React and Tailwind client, Node and Express API with JWT, MongoDB with Mongoose" width="100%" />
 </div>
 
 <br>
