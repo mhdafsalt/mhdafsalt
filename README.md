@@ -8,7 +8,7 @@
 
 <a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-F00016?style=for-the-badge&logo=googlechrome&logoColor=F4EEDF" alt="Portfolio" /></a>
 <a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-161111?style=for-the-badge&logo=github&logoColor=F4EEDF" alt="GitHub" /></a>
-<img src="https://img.shields.io/badge/Kerala%2C%20India-F4EEDF?style=for-the-badge&labelColor=F00016&logo=googlemaps&logoColor=F4EEDF" alt="Kerala, India" />
+<a href="https://www.instagram.com/qubix.dzn"><img src="https://img.shields.io/badge/Instagram-qubix.dzn-F00016?style=for-the-badge&logo=instagram&logoColor=F4EEDF" alt="Instagram" /></a>
 <img src="https://komarev.com/ghpvc/?username=mhdafsalt&label=Profile%20Views&color=F00016&style=for-the-badge" alt="Profile views" />
 
 </div>
@@ -110,6 +110,7 @@ const learning = [
 
 <a href="https://afsalt.in"><img src="https://img.shields.io/badge/Portfolio-afsalt.in-F00016?style=for-the-badge&logo=googlechrome&logoColor=F4EEDF" alt="Portfolio" /></a>
 <a href="https://github.com/mhdafsalt"><img src="https://img.shields.io/badge/GitHub-mhdafsalt-161111?style=for-the-badge&logo=github&logoColor=F4EEDF" alt="GitHub" /></a>
+<a href="https://www.instagram.com/qubix.dzn"><img src="https://img.shields.io/badge/Instagram-qubix.dzn-F00016?style=for-the-badge&logo=instagram&logoColor=F4EEDF" alt="Instagram" /></a>
 
 <br>
 
