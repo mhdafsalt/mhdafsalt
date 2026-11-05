@@ -17,16 +17,11 @@
 
 ## About
 
-```js
-const mohammedAfsal = {
-  role: "Full-Stack Developer | MERN Stack Developer",
-  location: "Kerala, India",
-  stack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-  focus: ["Responsive web apps", "Secure REST APIs", "JWT auth & RBAC"],
-  openTo: "Entry-level developer roles",
-  portfolio: "https://afsalt.in",
-};
-```
+<div align="center">
+<img src="assets/About.png" alt="About Mohammed Afsal - Full-Stack Developer" width="100%" />
+</div>
+
+<br>
 
 I like owning a feature from end to end: the interface a user touches, the API behind it and the data underneath. I build responsive web applications, and I'm looking for an entry-level role where I can ship real features and keep growing.
 
