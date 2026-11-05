@@ -2,13 +2,13 @@
   <defs>
     <!-- Left accent bar gradient -->
     <linearGradient id="flowAccentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3E7B4F" />
-      <stop offset="100%" stop-color="#8EB89B" />
+      <stop offset="0%" stop-color="#2F5D3A" />
+      <stop offset="100%" stop-color="#3E7B4F" />
     </linearGradient>
 
     <!-- Node drop shadow -->
     <filter id="nodeShadow" x="-5%" y="-5%" width="115%" height="115%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0E1E12" flood-opacity="0.35" />
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2F5D3A" flood-opacity="0.2" />
     </filter>
 
     <clipPath id="flowCardClip">
@@ -22,7 +22,7 @@
       font-size: 15px;
       font-weight: 700;
       letter-spacing: 2.8px;
-      fill: #F5F0E1;
+      fill: #2F5D3A;
       text-anchor: middle;
     }
     .node-tag {
@@ -30,7 +30,7 @@
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 2px;
-      fill: #8EB89B;
+      fill: #D9D2BC;
       text-anchor: middle;
     }
     .node-title {
@@ -43,44 +43,44 @@
     .node-sub {
       font-family: Consolas, 'Courier New', Courier, monospace;
       font-size: 11px;
-      fill: #D9D2BC;
+      fill: #A9CBB7;
       text-anchor: middle;
     }
     .connector-label {
       font-family: Consolas, 'Courier New', Courier, monospace;
       font-size: 9.5px;
-      fill: #D9D2BC;
+      fill: #6B6B5A;
       text-anchor: middle;
     }
     .caption-text {
       font-family: Georgia, 'Times New Roman', serif;
       font-size: 13.5px;
       font-style: italic;
-      fill: #D9D2BC;
+      fill: #6B6B5A;
       text-anchor: middle;
     }
   </style>
 
   <!-- Card Background clipped -->
   <g clip-path="url(#flowCardClip)">
-    <rect x="0" y="0" width="1000" height="230" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="2" rx="16" />
+    <rect x="0" y="0" width="1000" height="230" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="16" />
     <!-- Left Accent Bar -->
     <rect x="0" y="0" width="7" height="230" fill="url(#flowAccentGrad)" />
   </g>
 
   <!-- Header Section -->
   <g id="header">
-    <line x1="260" y1="32" x2="330" y2="32" stroke="#3E7B4F" stroke-width="1.5" />
-    <circle cx="338" cy="32" r="2.5" fill="#8EB89B" />
+    <line x1="260" y1="32" x2="330" y2="32" stroke="#D9D2BC" stroke-width="1.5" />
+    <circle cx="338" cy="32" r="2.5" fill="#3E7B4F" />
     <text x="500" y="37" class="title-text">HOW I BUILD, END TO END</text>
-    <circle cx="662" cy="32" r="2.5" fill="#8EB89B" />
-    <line x1="670" y1="32" x2="740" y2="32" stroke="#3E7B4F" stroke-width="1.5" />
+    <circle cx="662" cy="32" r="2.5" fill="#3E7B4F" />
+    <line x1="670" y1="32" x2="740" y2="32" stroke="#D9D2BC" stroke-width="1.5" />
   </g>
 
   <!-- Flow Diagrams / Nodes -->
   <!-- Node 1: CLIENT -->
   <g id="node-client" filter="url(#nodeShadow)">
-    <rect x="50" y="56" width="235" height="104" rx="12" fill="#1C3823" stroke="#3E7B4F" stroke-width="1.5" />
+    <rect x="50" y="56" width="235" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
     <text x="167" y="81" class="node-tag">CLIENT</text>
     <text x="167" y="107" class="node-title">React + Tailwind CSS</text>
     <text x="167" y="131" class="node-sub">Interactive UI &amp; State</text>
@@ -89,23 +89,23 @@
   <!-- Connector 1: Client <-> Server -->
   <g id="connector-client-server">
     <!-- Upper: Request -->
-    <line x1="290" y1="92" x2="375" y2="92" stroke="#8EB89B" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="290" y1="92" x2="375" y2="92" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
     <text x="332" y="85" class="connector-label">HTTP / JSON</text>
-    <circle cy="92" r="3.5" fill="#8EB89B">
+    <circle cy="92" r="3.5" fill="#3E7B4F">
       <animate attributeName="cx" values="290;375" dur="1.8s" repeatCount="indefinite" />
     </circle>
 
     <!-- Lower: Response -->
-    <line x1="290" y1="124" x2="375" y2="124" stroke="#8EB89B" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="290" y1="124" x2="375" y2="124" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
     <text x="332" y="141" class="connector-label">Response</text>
-    <circle cy="124" r="3.5" fill="#F5F0E1">
+    <circle cy="124" r="3.5" fill="#2F5D3A">
       <animate attributeName="cx" values="375;290" dur="1.8s" repeatCount="indefinite" />
     </circle>
   </g>
 
   <!-- Node 2: SERVER -->
   <g id="node-server" filter="url(#nodeShadow)">
-    <rect x="380" y="56" width="240" height="104" rx="12" fill="#1C3823" stroke="#3E7B4F" stroke-width="1.5" />
+    <rect x="380" y="56" width="240" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
     <text x="500" y="81" class="node-tag">SERVER</text>
     <text x="500" y="107" class="node-title">Node.js + Express</text>
     <text x="500" y="131" class="node-sub">REST API · JWT · RBAC</text>
@@ -114,23 +114,23 @@
   <!-- Connector 2: Server <-> Database -->
   <g id="connector-server-db">
     <!-- Upper: Query -->
-    <line x1="625" y1="92" x2="710" y2="92" stroke="#8EB89B" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="625" y1="92" x2="710" y2="92" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
     <text x="667" y="85" class="connector-label">Mongoose</text>
-    <circle cy="92" r="3.5" fill="#8EB89B">
+    <circle cy="92" r="3.5" fill="#3E7B4F">
       <animate attributeName="cx" values="625;710" dur="1.8s" repeatCount="indefinite" />
     </circle>
 
     <!-- Lower: Documents -->
-    <line x1="625" y1="124" x2="710" y2="124" stroke="#8EB89B" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="625" y1="124" x2="710" y2="124" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
     <text x="667" y="141" class="connector-label">BSON Data</text>
-    <circle cy="124" r="3.5" fill="#F5F0E1">
+    <circle cy="124" r="3.5" fill="#2F5D3A">
       <animate attributeName="cx" values="710;625" dur="1.8s" repeatCount="indefinite" />
     </circle>
   </g>
 
   <!-- Node 3: DATABASE -->
   <g id="node-database" filter="url(#nodeShadow)">
-    <rect x="715" y="56" width="235" height="104" rx="12" fill="#1C3823" stroke="#3E7B4F" stroke-width="1.5" />
+    <rect x="715" y="56" width="235" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
     <text x="832" y="81" class="node-tag">DATABASE</text>
     <text x="832" y="107" class="node-title">MongoDB + Mongoose</text>
     <text x="832" y="131" class="node-sub">Schemas &amp; Documents</text>
@@ -139,3 +139,4 @@
   <!-- Bottom Caption -->
   <text x="500" y="196" class="caption-text">Responsive interfaces, secure APIs, structured data.</text>
 </svg>
+

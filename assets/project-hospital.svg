@@ -2,15 +2,15 @@
   <defs>
     <!-- Left accent bar gradient -->
     <linearGradient id="projAccentGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3E7B4F" />
-      <stop offset="100%" stop-color="#8EB89B" />
+      <stop offset="0%" stop-color="#2F5D3A" />
+      <stop offset="100%" stop-color="#3E7B4F" />
     </linearGradient>
 
     <!-- Bottom sliding line gradient -->
     <linearGradient id="slideLineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3E7B4F" stop-opacity="0" />
-      <stop offset="50%" stop-color="#8EB89B" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#3E7B4F" stop-opacity="0" />
+      <stop offset="0%" stop-color="#2F5D3A" stop-opacity="0" />
+      <stop offset="50%" stop-color="#3E7B4F" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#2F5D3A" stop-opacity="0" />
     </linearGradient>
 
     <clipPath id="cardClip1">
@@ -24,21 +24,21 @@
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 2.2px;
-      fill: #8EB89B;
+      fill: #3E7B4F;
     }
     .project-title {
       font-family: Georgia, 'Times New Roman', serif;
       font-size: 22px;
       font-weight: 700;
-      fill: #F5F0E1;
+      fill: #2F5D3A;
     }
     .project-desc {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 13px;
-      fill: #D9D2BC;
+      fill: #6B6B5A;
     }
     .chip-outline {
-      fill: #204229;
+      fill: #ECE6D5;
       stroke: #3E7B4F;
       stroke-width: 1.2;
     }
@@ -46,7 +46,7 @@
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 11px;
       font-weight: 600;
-      fill: #F5F0E1;
+      fill: #2F5D3A;
       text-anchor: middle;
       dominant-baseline: middle;
     }
@@ -54,8 +54,8 @@
       font-family: Georgia, 'Times New Roman', serif;
       font-size: 130px;
       font-weight: 900;
-      fill: #8EB89B;
-      opacity: 0.12;
+      fill: #2F5D3A;
+      opacity: 0.07;
       text-anchor: middle;
       user-select: none;
     }
@@ -63,7 +63,7 @@
 
   <!-- Card Background clipped -->
   <g clip-path="url(#cardClip1)">
-    <rect x="0" y="0" width="900" height="210" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="2" rx="14" />
+    <rect x="0" y="0" width="900" height="210" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="14" />
     
     <!-- Left Accent Bar -->
     <rect x="0" y="0" width="6" height="210" fill="url(#projAccentGrad1)" />
@@ -83,10 +83,10 @@
     <!-- Mono Label -->
     <text x="42" y="40" class="project-mono">PROJECT 01</text>
 
-    <!-- Title: Cream -->
+    <!-- Title -->
     <text x="42" y="72" class="project-title">Hospital Management System</text>
 
-    <!-- Description: Sand -->
+    <!-- Description -->
     <text x="42" y="97" class="project-desc">Full-stack healthcare management with role-based access control and patient-doctor scheduling.</text>
 
     <!-- Feature Chips (Row 1) -->
@@ -128,3 +128,4 @@
     </g>
   </g>
 </svg>
+

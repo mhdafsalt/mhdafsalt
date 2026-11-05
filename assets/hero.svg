@@ -2,18 +2,18 @@
   <defs>
     <!-- Left accent bar gradient -->
     <linearGradient id="heroAccentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3E7B4F" />
-      <stop offset="100%" stop-color="#8EB89B" />
+      <stop offset="0%" stop-color="#2F5D3A" />
+      <stop offset="100%" stop-color="#3E7B4F" />
     </linearGradient>
 
     <!-- Floating circle gradients -->
     <radialGradient id="softGreenGrad1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#3E7B4F" stop-opacity="0.30" />
+      <stop offset="0%" stop-color="#3E7B4F" stop-opacity="0.20" />
       <stop offset="100%" stop-color="#3E7B4F" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="softGreenGrad2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8EB89B" stop-opacity="0.20" />
-      <stop offset="100%" stop-color="#8EB89B" stop-opacity="0" />
+      <stop offset="0%" stop-color="#2F5D3A" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#2F5D3A" stop-opacity="0" />
     </radialGradient>
 
     <!-- Clip path for outer card radius -->
@@ -23,7 +23,7 @@
 
     <!-- Code window shadow -->
     <filter id="codeShadow" x="-5%" y="-5%" width="115%" height="115%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0E1E12" flood-opacity="0.4" />
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#2F5D3A" flood-opacity="0.25" />
     </filter>
   </defs>
 
@@ -33,25 +33,25 @@
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 2.2px;
-      fill: #8EB89B;
+      fill: #3E7B4F;
     }
     .hero-name {
       font-family: Georgia, 'Times New Roman', serif;
       font-size: 52px;
       font-weight: 700;
-      fill: #F5F0E1;
+      fill: #2F5D3A;
     }
     .hero-role {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 17.5px;
       font-weight: 600;
-      fill: #D9D2BC;
+      fill: #3B3B2F;
     }
     .hero-meta {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 14px;
       font-weight: 500;
-      fill: #A9CBB7;
+      fill: #6B6B5A;
     }
     .pill-text {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
@@ -69,11 +69,11 @@
 
   <!-- Card Background clipped -->
   <g clip-path="url(#heroCardClip)">
-    <!-- Main Background: Forest Green -->
-    <rect x="0" y="0" width="1000" height="320" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="2" rx="18" />
+    <!-- Main Background -->
+    <rect x="0" y="0" width="1000" height="320" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="18" />
 
     <!-- Animated Floating Circles (SMIL animateTransform) -->
-    <circle cx="160" cy="80" r="95" fill="url(#softGreenGrad1)">
+    <circle cx="160" cy="80" r="90" fill="url(#softGreenGrad1)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 25,-18; 0,0" dur="11s" repeatCount="indefinite" />
     </circle>
     <circle cx="430" cy="230" r="120" fill="url(#softGreenGrad2)">
@@ -82,7 +82,7 @@
     <circle cx="80" cy="270" r="70" fill="url(#softGreenGrad1)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 18,15; 0,0" dur="9s" repeatCount="indefinite" />
     </circle>
-    <circle cx="500" cy="90" r="32" stroke="#8EB89B" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.3">
+    <circle cx="500" cy="90" r="32" stroke="#3E7B4F" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.25">
       <animateTransform attributeName="transform" type="rotate" from="0 500 90" to="360 500 90" dur="24s" repeatCount="indefinite" />
     </circle>
 
@@ -95,48 +95,48 @@
     <!-- Mono Greeting -->
     <text x="48" y="62" class="mono-label">HELLO, WORLD. I'M</text>
 
-    <!-- Large Serif Name: Cream #F5F0E1 -->
+    <!-- Large Serif Name (safe gap before code window) -->
     <text x="48" y="120" class="hero-name">Mohammed Afsal</text>
 
-    <!-- Role Subtitle: Sand #D9D2BC -->
+    <!-- Role Subtitle -->
     <text x="48" y="162" class="hero-role">Full-Stack Developer · MERN Stack</text>
 
-    <!-- Location & Status: Soft Mint #A9CBB7 -->
+    <!-- Location & Status -->
     <text x="48" y="194" class="hero-meta">Kerala, India · Open to entry-level roles</text>
 
     <!-- Four Green Pills: React, Node.js, Express, MongoDB -->
     <g id="pills" transform="translate(48, 226)">
       <!-- React -->
       <g transform="translate(0, 0)">
-        <rect width="68" height="28" rx="14" fill="#204229" stroke="#3E7B4F" stroke-width="1.2" />
+        <rect width="68" height="28" rx="14" fill="#2F5D3A" />
         <text x="34" y="15" class="pill-text">React</text>
       </g>
       <!-- Node.js -->
       <g transform="translate(76, 0)">
-        <rect width="78" height="28" rx="14" fill="#204229" stroke="#3E7B4F" stroke-width="1.2" />
+        <rect width="78" height="28" rx="14" fill="#2F5D3A" />
         <text x="39" y="15" class="pill-text">Node.js</text>
       </g>
       <!-- Express -->
       <g transform="translate(162, 0)">
-        <rect width="76" height="28" rx="14" fill="#204229" stroke="#3E7B4F" stroke-width="1.2" />
+        <rect width="76" height="28" rx="14" fill="#2F5D3A" />
         <text x="38" y="15" class="pill-text">Express</text>
       </g>
       <!-- MongoDB -->
       <g transform="translate(246, 0)">
-        <rect width="86" height="28" rx="14" fill="#204229" stroke="#3E7B4F" stroke-width="1.2" />
+        <rect width="86" height="28" rx="14" fill="#2F5D3A" />
         <text x="43" y="15" class="pill-text">MongoDB</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Code Window Mock: Deep Contrast Forest -->
+  <!-- Right Code Window Mock -->
   <g id="code-window" filter="url(#codeShadow)" transform="translate(540, 36)">
     <!-- Window Body -->
-    <rect width="414" height="248" rx="12" fill="#1C3823" stroke="#3E7B4F" stroke-width="1.5" />
+    <rect width="414" height="248" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
 
     <!-- Window Title Bar -->
-    <rect width="414" height="34" rx="12" fill="#152B1B" />
-    <rect y="22" width="414" height="12" fill="#152B1B" />
+    <rect width="414" height="34" rx="12" fill="#23472C" />
+    <rect y="22" width="414" height="12" fill="#23472C" />
     <line x1="0" y1="34" x2="414" y2="34" stroke="#3E7B4F" stroke-width="1" opacity="0.6" />
 
     <!-- Window Dots -->
@@ -145,7 +145,7 @@
     <circle cx="52" cy="17" r="5" fill="#61C554" />
 
     <!-- Window Title -->
-    <text x="207" y="21" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#D9D2BC" opacity="0.85" text-anchor="middle">dev.js</text>
+    <text x="207" y="21" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#D9D2BC" opacity="0.8" text-anchor="middle">dev.js</text>
 
     <!-- Code Lines inside window -->
     <g class="code-text" transform="translate(26, 42)">
@@ -153,7 +153,7 @@
       <g>
         <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="0.2s" fill="freeze" />
         <text y="26">
-          <tspan fill="#8EB89B">const</tspan> <tspan fill="#F5F0E1">dev</tspan> <tspan fill="#D9D2BC">=</tspan> <tspan fill="#F5F0E1">{</tspan>
+          <tspan fill="#A9CBB7">const</tspan> <tspan fill="#F5F0E1">dev</tspan> <tspan fill="#D9D2BC">=</tspan> <tspan fill="#F5F0E1">{</tspan>
         </text>
       </g>
 

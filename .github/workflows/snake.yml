@@ -23,7 +23,7 @@ jobs:
         with:
           github_user_name: mhdafsalt
           outputs: |
-            dist/github-snake.svg?color_snake=%23F5F0E1&color_dots=%232F5D3A,%233E7B4F,%235B9A6E,%238EB89B,%23F5F0E1
+            dist/github-snake.svg?color_snake=%232F5D3A&color_dots=%23F5F0E1,%23D9D2BC,%238EB89B,%233E7B4F,%232F5D3A
             dist/github-snake-dark.svg?color_snake=%238EB89B&color_dots=%2318261B,%23213B27,%232F5D3A,%233E7B4F,%238EB89B
 
       - name: Push SVGs to the output branch
@@ -33,3 +33,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
