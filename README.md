@@ -115,6 +115,6 @@ const learning = [
 
 *Open to entry-level Full-Stack and MERN developer roles. Let's build something good.*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=F00016&height=90&section=footer" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=F4EEDF&height=90&section=footer" alt="" />
 
 </div>
