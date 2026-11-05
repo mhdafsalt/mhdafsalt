@@ -1,28 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230">
   <defs>
-    <!-- Left accent bar gradient -->
-    <linearGradient id="flowAccentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2F5D3A" />
-      <stop offset="100%" stop-color="#3E7B4F" />
-    </linearGradient>
-
     <!-- Node drop shadow -->
     <filter id="nodeShadow" x="-5%" y="-5%" width="115%" height="115%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2F5D3A" flood-opacity="0.2" />
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.16" />
     </filter>
-
-    <clipPath id="flowCardClip">
-      <rect x="0" y="0" width="1000" height="230" rx="16" ry="16" />
-    </clipPath>
   </defs>
 
   <style>
     .title-text {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 2.8px;
-      fill: #2F5D3A;
+      font-family: Consolas, 'Courier New', Courier, monospace;
+      font-size: 14.5px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      fill: #161111;
       text-anchor: middle;
     }
     .node-tag {
@@ -30,113 +20,111 @@
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 2px;
-      fill: #D9D2BC;
+      fill: #FF4D5A;
       text-anchor: middle;
     }
     .node-title {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 15px;
       font-weight: 700;
-      fill: #F5F0E1;
+      fill: #F4EEDF;
       text-anchor: middle;
     }
     .node-sub {
       font-family: Consolas, 'Courier New', Courier, monospace;
       font-size: 11px;
-      fill: #A9CBB7;
+      fill: #D9D2BC;
       text-anchor: middle;
     }
     .connector-label {
       font-family: Consolas, 'Courier New', Courier, monospace;
       font-size: 9.5px;
-      fill: #6B6B5A;
+      font-weight: 600;
+      fill: #5A5555;
       text-anchor: middle;
     }
     .caption-text {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: 13.5px;
-      font-style: italic;
-      fill: #6B6B5A;
+      font-family: Consolas, 'Courier New', Courier, monospace;
+      font-size: 12.5px;
+      fill: #666060;
       text-anchor: middle;
     }
   </style>
 
-  <!-- Card Background clipped -->
-  <g clip-path="url(#flowCardClip)">
-    <rect x="0" y="0" width="1000" height="230" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="16" />
-    <!-- Left Accent Bar -->
-    <rect x="0" y="0" width="7" height="230" fill="url(#flowAccentGrad)" />
-  </g>
+  <!-- Sharp Card Background without border radius or left red line -->
+  <rect x="0" y="0" width="1000" height="230" fill="#F4EEDF" stroke="#D9D2BC" stroke-width="2" />
 
   <!-- Header Section -->
   <g id="header">
-    <line x1="260" y1="32" x2="330" y2="32" stroke="#D9D2BC" stroke-width="1.5" />
-    <circle cx="338" cy="32" r="2.5" fill="#3E7B4F" />
-    <text x="500" y="37" class="title-text">HOW I BUILD, END TO END</text>
-    <circle cx="662" cy="32" r="2.5" fill="#3E7B4F" />
-    <line x1="670" y1="32" x2="740" y2="32" stroke="#D9D2BC" stroke-width="1.5" />
+    <line x1="250" y1="33" x2="315" y2="33" stroke="#D9D2BC" stroke-width="1.5" />
+    <circle cx="323" cy="33" r="3" fill="#F00016" />
+    <text x="500" y="38" class="title-text">HOW I BUILD, END TO END</text>
+    <circle cx="677" cy="33" r="3" fill="#F00016" />
+    <line x1="685" y1="33" x2="750" y2="33" stroke="#D9D2BC" stroke-width="1.5" />
   </g>
 
-  <!-- Flow Diagrams / Nodes -->
+  <!-- Flow Nodes - Sharp Boxes without border radius -->
   <!-- Node 1: CLIENT -->
   <g id="node-client" filter="url(#nodeShadow)">
-    <rect x="50" y="56" width="235" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
-    <text x="167" y="81" class="node-tag">CLIENT</text>
-    <text x="167" y="107" class="node-title">React + Tailwind CSS</text>
-    <text x="167" y="131" class="node-sub">Interactive UI &amp; State</text>
+    <rect x="50" y="56" width="235" height="104" fill="#181818" stroke="#2E2E2E" stroke-width="1.5" />
+    <rect x="50" y="56" width="235" height="4" fill="#F00016" />
+    <text x="167" y="83" class="node-tag">CLIENT</text>
+    <text x="167" y="108" class="node-title">React + Tailwind CSS</text>
+    <text x="167" y="132" class="node-sub">Interactive UI &amp; State</text>
   </g>
 
   <!-- Connector 1: Client <-> Server -->
   <g id="connector-client-server">
     <!-- Upper: Request -->
-    <line x1="290" y1="92" x2="375" y2="92" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="290" y1="92" x2="375" y2="92" stroke="#8A8282" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7" />
     <text x="332" y="85" class="connector-label">HTTP / JSON</text>
-    <circle cy="92" r="3.5" fill="#3E7B4F">
+    <circle cy="92" r="3.5" fill="#F00016">
       <animate attributeName="cx" values="290;375" dur="1.8s" repeatCount="indefinite" />
     </circle>
 
     <!-- Lower: Response -->
-    <line x1="290" y1="124" x2="375" y2="124" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="290" y1="124" x2="375" y2="124" stroke="#8A8282" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7" />
     <text x="332" y="141" class="connector-label">Response</text>
-    <circle cy="124" r="3.5" fill="#2F5D3A">
+    <circle cy="124" r="3.5" fill="#181818">
       <animate attributeName="cx" values="375;290" dur="1.8s" repeatCount="indefinite" />
     </circle>
   </g>
 
   <!-- Node 2: SERVER -->
   <g id="node-server" filter="url(#nodeShadow)">
-    <rect x="380" y="56" width="240" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
-    <text x="500" y="81" class="node-tag">SERVER</text>
-    <text x="500" y="107" class="node-title">Node.js + Express</text>
-    <text x="500" y="131" class="node-sub">REST API · JWT · RBAC</text>
+    <rect x="380" y="56" width="240" height="104" fill="#181818" stroke="#2E2E2E" stroke-width="1.5" />
+    <rect x="380" y="56" width="240" height="4" fill="#F00016" />
+    <text x="500" y="83" class="node-tag">SERVER</text>
+    <text x="500" y="108" class="node-title">Node.js + Express</text>
+    <text x="500" y="132" class="node-sub">REST API · JWT · RBAC</text>
   </g>
 
   <!-- Connector 2: Server <-> Database -->
   <g id="connector-server-db">
     <!-- Upper: Query -->
-    <line x1="625" y1="92" x2="710" y2="92" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="625" y1="92" x2="710" y2="92" stroke="#8A8282" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7" />
     <text x="667" y="85" class="connector-label">Mongoose</text>
-    <circle cy="92" r="3.5" fill="#3E7B4F">
+    <circle cy="92" r="3.5" fill="#F00016">
       <animate attributeName="cx" values="625;710" dur="1.8s" repeatCount="indefinite" />
     </circle>
 
     <!-- Lower: Documents -->
-    <line x1="625" y1="124" x2="710" y2="124" stroke="#6B6B5A" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+    <line x1="625" y1="124" x2="710" y2="124" stroke="#8A8282" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7" />
     <text x="667" y="141" class="connector-label">BSON Data</text>
-    <circle cy="124" r="3.5" fill="#2F5D3A">
+    <circle cy="124" r="3.5" fill="#181818">
       <animate attributeName="cx" values="710;625" dur="1.8s" repeatCount="indefinite" />
     </circle>
   </g>
 
   <!-- Node 3: DATABASE -->
   <g id="node-database" filter="url(#nodeShadow)">
-    <rect x="715" y="56" width="235" height="104" rx="12" fill="#2F5D3A" stroke="#3E7B4F" stroke-width="1.5" />
-    <text x="832" y="81" class="node-tag">DATABASE</text>
-    <text x="832" y="107" class="node-title">MongoDB + Mongoose</text>
-    <text x="832" y="131" class="node-sub">Schemas &amp; Documents</text>
+    <rect x="715" y="56" width="235" height="104" fill="#181818" stroke="#2E2E2E" stroke-width="1.5" />
+    <rect x="715" y="56" width="235" height="4" fill="#F00016" />
+    <text x="832" y="83" class="node-tag">DATABASE</text>
+    <text x="832" y="108" class="node-title">MongoDB + Mongoose</text>
+    <text x="832" y="132" class="node-sub">Schemas &amp; Documents</text>
   </g>
 
   <!-- Bottom Caption -->
-  <text x="500" y="196" class="caption-text">Responsive interfaces, secure APIs, structured data.</text>
+  <text x="500" y="196" class="caption-text">// Responsive interfaces, secure APIs, structured data.</text>
 </svg>
-

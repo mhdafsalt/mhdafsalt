@@ -1,82 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210">
   <defs>
-    <!-- Left accent bar gradient -->
-    <linearGradient id="projAccentGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2F5D3A" />
-      <stop offset="100%" stop-color="#3E7B4F" />
-    </linearGradient>
-
     <!-- Bottom sliding line gradient -->
     <linearGradient id="slideLineGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2F5D3A" stop-opacity="0" />
-      <stop offset="50%" stop-color="#3E7B4F" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#2F5D3A" stop-opacity="0" />
+      <stop offset="0%" stop-color="#F00016" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F00016" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#B22731" stop-opacity="0" />
     </linearGradient>
-
-    <clipPath id="cardClip2">
-      <rect x="0" y="0" width="900" height="210" rx="14" ry="14" />
-    </clipPath>
   </defs>
 
   <style>
     .project-mono {
       font-family: Consolas, 'Courier New', Courier, monospace;
       font-size: 11px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: 2.2px;
-      fill: #3E7B4F;
+      fill: #F00016;
     }
     .project-title {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: 22px;
-      font-weight: 700;
-      fill: #2F5D3A;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 21px;
+      font-weight: 800;
+      fill: #161111;
     }
     .project-desc {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 13px;
-      fill: #6B6B5A;
+      fill: #555050;
+    }
+    .chip-accent {
+      fill: #FDE8E9;
+      stroke: #F00016;
+      stroke-width: 1.2;
+    }
+    .chip-accent-text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #B22731;
+      text-anchor: middle;
+      dominant-baseline: middle;
     }
     .chip-outline {
-      fill: #ECE6D5;
-      stroke: #3E7B4F;
+      fill: #EFE9D9;
+      stroke: #2E2828;
       stroke-width: 1.2;
     }
     .chip-text {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
       font-size: 11px;
       font-weight: 600;
-      fill: #2F5D3A;
+      fill: #161111;
       text-anchor: middle;
       dominant-baseline: middle;
     }
     .watermark-num {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: 130px;
+      font-family: 'Segoe UI', Impact, sans-serif;
+      font-size: 120px;
       font-weight: 900;
-      fill: #2F5D3A;
-      opacity: 0.07;
+      fill: #161111;
+      opacity: 0.12;
       text-anchor: middle;
       user-select: none;
     }
   </style>
 
-  <!-- Card Background clipped -->
-  <g clip-path="url(#cardClip2)">
-    <rect x="0" y="0" width="900" height="210" fill="#F5F0E1" stroke="#D9D2BC" stroke-width="2" rx="14" />
-    
-    <!-- Left Accent Bar -->
-    <rect x="0" y="0" width="6" height="210" fill="url(#projAccentGrad2)" />
+  <!-- Sharp Card Background without border radius or left red line -->
+  <rect x="0" y="0" width="900" height="210" fill="#F4EEDF" stroke="#D9D2BC" stroke-width="2" />
 
-    <!-- Huge Faded Number on Right -->
-    <text x="785" y="152" class="watermark-num">02</text>
+  <!-- Number Watermark (no background circle) -->
+  <text x="785" y="148" class="watermark-num">02</text>
 
-    <!-- Thin Animated Bottom Edge Line -->
-    <rect y="207" height="3" fill="url(#slideLineGrad2)" rx="1.5">
-      <animate attributeName="x" values="-240; 900" dur="4.2s" begin="0.8s" repeatCount="indefinite" />
-      <animate attributeName="width" values="120; 260; 120" dur="4.2s" begin="0.8s" repeatCount="indefinite" />
-    </rect>
-  </g>
+  <!-- Thin Animated Bottom Edge Line -->
+  <rect y="207" height="3" fill="url(#slideLineGrad2)">
+    <animate attributeName="x" values="-240; 900" dur="4.2s" begin="0.8s" repeatCount="indefinite" />
+    <animate attributeName="width" values="120; 260; 120" dur="4.2s" begin="0.8s" repeatCount="indefinite" />
+  </rect>
 
   <!-- Project Content -->
   <g id="project-content">
@@ -89,38 +87,37 @@
     <!-- Description -->
     <text x="42" y="97" class="project-desc">Intelligent travel booking portal featuring AI-assisted itinerary generation and booking administration.</text>
 
-    <!-- Feature Chips (Row 1) -->
+    <!-- Feature Chips (Row 1) - Sharp rectangular tags -->
     <g transform="translate(42, 120)">
       <!-- Package listings -->
       <g transform="translate(0, 0)">
-        <rect width="118" height="24" rx="12" class="chip-outline" />
+        <rect width="118" height="24" class="chip-outline" />
         <text x="59" y="13" class="chip-text">Package Listings</text>
       </g>
       <!-- Booking -->
       <g transform="translate(126, 0)">
-        <rect width="72" height="24" rx="12" class="chip-outline" />
+        <rect width="72" height="24" class="chip-outline" />
         <text x="36" y="13" class="chip-text">Booking</text>
       </g>
       <!-- Admin dashboard -->
       <g transform="translate(206, 0)">
-        <rect width="132" height="24" rx="12" class="chip-outline" />
+        <rect width="132" height="24" class="chip-outline" />
         <text x="66" y="13" class="chip-text">Admin Dashboard</text>
       </g>
       <!-- Personalized suggestions -->
       <g transform="translate(346, 0)">
-        <rect width="168" height="24" rx="12" class="chip-outline" />
+        <rect width="168" height="24" class="chip-outline" />
         <text x="84" y="13" class="chip-text">Personalized Suggestions</text>
       </g>
     </g>
 
-    <!-- Feature Chips (Row 2) -->
+    <!-- Feature Chips (Row 2) - Sharp rectangular tags -->
     <g transform="translate(42, 152)">
-      <!-- AI travel planning based on destination, trip duration and number of travelers -->
+      <!-- AI travel planning based on destination, trip duration and number of travelers (Accent) -->
       <g transform="translate(0, 0)">
-        <rect width="395" height="24" rx="12" class="chip-outline" />
-        <text x="197" y="13" class="chip-text">AI Travel Planning (Destination, Trip Duration &amp; Travelers)</text>
+        <rect width="395" height="24" class="chip-accent" />
+        <text x="197" y="13" class="chip-accent-text">AI Travel Planning (Destination, Trip Duration &amp; Travelers)</text>
       </g>
     </g>
   </g>
 </svg>
-
