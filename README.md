@@ -90,12 +90,12 @@ const learning = [
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mhdafsalt&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=2F5D3A&amp;text_color=3B3B2F&amp;icon_color=3E7B4F&amp;bg_color=F5F0E1&amp;border_color=D9D2BC" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdafsalt&amp;layout=compact&amp;langs_count=6&amp;title_color=2F5D3A&amp;text_color=3B3B2F&amp;bg_color=F5F0E1&amp;border_color=D9D2BC" alt="Most used languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mhdafsalt&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;title_color=F5F0E1&amp;text_color=D9D2BC&amp;icon_color=8EB89B&amp;bg_color=2F5D3A&amp;border_color=3E7B4F" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdafsalt&amp;layout=compact&amp;langs_count=6&amp;title_color=F5F0E1&amp;text_color=D9D2BC&amp;bg_color=2F5D3A&amp;border_color=3E7B4F" alt="Most used languages" />
 
-<img src="https://streak-stats.demolab.com/?user=mhdafsalt&amp;background=F5F0E1&amp;ring=2F5D3A&amp;fire=3E7B4F&amp;currStreakNum=3B3B2F&amp;currStreakLabel=2F5D3A&amp;sideNums=3B3B2F&amp;sideLabels=2F5D3A&amp;dates=6B6B5A&amp;border=D9D2BC" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=mhdafsalt&amp;background=2F5D3A&amp;ring=3E7B4F&amp;fire=8EB89B&amp;currStreakNum=F5F0E1&amp;currStreakLabel=D9D2BC&amp;sideNums=F5F0E1&amp;sideLabels=D9D2BC&amp;dates=A9CBB7&amp;border=3E7B4F" alt="GitHub streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhdafsalt&amp;bg_color=F5F0E1&amp;color=2F5D3A&amp;line=3E7B4F&amp;point=2F5D3A&amp;area=true&amp;area_color=3E7B4F&amp;hide_border=true" alt="Contribution graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhdafsalt&amp;bg_color=2F5D3A&amp;color=F5F0E1&amp;line=8EB89B&amp;point=F5F0E1&amp;area=true&amp;area_color=3E7B4F&amp;title_color=F5F0E1&amp;hide_border=true" alt="Contribution graph" />
 
 <!-- Optional: uncomment after the snake workflow has run once (see instructions).
 <img src="https://raw.githubusercontent.com/mhdafsalt/mhdafsalt/output/github-snake.svg" alt="Contribution snake" width="100%" />
