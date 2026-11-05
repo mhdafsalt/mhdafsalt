@@ -67,28 +67,11 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 <br>
 
-## Currently Learning
-
-```js
-const learning = [
-  "TypeScript",
-  "Next.js",
-  "Docker & Containerization",
-];
-```
-
-<br>
-
 ## GitHub Statistics
 
 <div align="center">
 
 <img src="https://streak-stats.demolab.com/?user=mhdafsalt&background=F4EEDF&border=D9D2BC&stroke=D9D2BC&ring=F00016&fire=F00016&currStreakLabel=F00016&currStreakNum=161111&sideNums=161111&sideLabels=555050&dates=666060" alt="GitHub streak" />
-
-<br><br>
-
-<img height="175" src="https://github-stats-extended.vercel.app/api?username=mhdafsalt&show_icons=true&title_color=F00016&text_color=161111&icon_color=F00016&bg_color=F4EEDF&border_color=D9D2BC" alt="GitHub stats" />
-<img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhdafsalt&layout=compact&langs_count=6&title_color=F00016&text_color=161111&bg_color=F4EEDF&border_color=D9D2BC" alt="Most used languages" />
 
 <!-- Optional: uncomment after the snake workflow has run once (see instructions).
 <br><br>
