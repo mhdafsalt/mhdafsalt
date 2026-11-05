@@ -82,7 +82,7 @@
     <text x="42" y="40" class="project-mono">PROJECT 02</text>
 
     <!-- Title -->
-    <text x="42" y="72" class="project-title">TripzyGo · AI-Powered Travel Booking Platform</text>
+    <text x="42" y="72" class="project-title">TripzyGo · AI Travel Planner &amp; Booking Platform</text>
 
     <!-- Description -->
     <text x="42" y="97" class="project-desc">Intelligent travel booking portal featuring AI-assisted itinerary generation and booking administration.</text>
