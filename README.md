@@ -78,9 +78,9 @@ I like owning a feature from end to end: the interface a user touches, the API b
 
 ```js
 const learning = [
-  "[Add topic]",
-  "[Add topic]",
-  "[Add topic]",
+  "TypeScript",
+  "Next.js",
+  "Docker & Containerization",
 ];
 ```
 
